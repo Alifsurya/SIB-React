@@ -1,0 +1,18 @@
+//Buat data 10 buku
+const books = [
+    {id: 1, title: "Belajar Java Script Dasar", author: "Andi Prasetyo", year: 2021, description: "Panduan lengkap untuk pemula yang ingin belajar JavaScript dari nol", image:"https://santrikoding.com/storage/courses/07192e5c-f282-418a-91e7-4da4d67f3fc3.webp"},
+    {id: 2, title: "React untuk pemula", author: "Dina Sari", year: 2022, description: "Mengenal Konsep dan praktik membuat aplikasi React Modern", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyEEIIiIaK6YmM5tK0b17Ig7G9fSLw5SsTpQ&s"},
+    {id: 3, title: "Belajar Sendiri Pasti Bisa Javascript", author: "Abdul Kadir", year: 2015, description: "Panduan praktis untuk pemula yang ingin menguasai JavaScript dari dasar hingga mahir.", image: "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/105/MTA-160694294/andi-publisher_buku-belajar-sendiri-pasti-bisa-javascript_full01.jpg"},
+    {id: 4, title: "HTML5 dan Javascript untuk Pemula", author: "Jubilee Enterprise", year: 2021, description: "Buku referensi lengkap dan mudah dipahami untuk penggunaan HTML5 dan JavaScript dalam pembuatan website.",image: "https://ebooks.gramedia.com/ebook-covers/64350/image_highres/BLK_HDJUP2021531126.jpg"},
+    {id: 5,title: "Langkah Mudah Belajar Pemrograman Web dengan HTML, CSS, dan Javascript untuk Pemula", author: "Jubilee Enterprise", year: 2021, description: "Panduan esensial bagi siapa saja yang ingin memulai perjalanan dalam dunia pengembangan web.", image: "https://openlibrary.telkomuniversity.ac.id/uploads/book/cover/24.01.688.jpg"},
+    {id: 6, title: "Master Coding HTML, CSS & Javascript", author: "Jubilee Enterprise", year: 2021, description: "Panduan komprehensif untuk membantu pembaca memahami dan menguasai HTML, CSS, dan JavaScript.", image: "https://cdn.gramedia.com/uploads/product-metas/-2mpsv0an9.jpg"},
+    {id: 7, title: "Mahir Pemrograman dengan HTML, CSS, dan Javascript", author: "Faishal Nafi' Rabbani", year: 2021, description: "Buku ini membahas cara membuat situs web portofolio dengan HTML, CSS, JavaScript, dan Bootstrap.", image: "https://cdn.gramedia.com/uploads/product-metas/rpt-m-a2sc.jpg"},
+    {id: 8, title: "Melangkah", author: "Tere Liye", year: 2021, description: "Novel yang mengisahkan perjalanan hidup dan pencarian jati diri seorang tokoh utama.",image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieiYd-6x7TxD78PKTZ6Q7BIJXMrzVdeWBcFzZtU9weOt5uf9KviOmhI_VlubBt3TS7iXPGfJCqbFgOG-qxQfLiiH-ib-dltM8b8HIm1XHMuXZUULsKfUHrmt25ciDKkMzXUuuUNnJBYw0S/s467/images.jpeg.jpg"},
+    {id: 9, title: "Layangan Putus", author: "Mommy ASF", year: 2020, description: "Kisah cinta yang penuh lika-liku dan konflik emosional yang mendalam.", image: "https://cnc-magazine.oramiland.com/parenting/images/5795B55B-BE6B-41D0-BFAE-26ADC67ED.width-800.format-webp.webp"},
+    {id: 10, title: "Black Showman dan Pembunuhan di Kota Tak Bernama", author: "Andrea Hirata", year: 2022,description: "Novel misteri yang menggabungkan elemen detektif dan drama psikologis.", image: "https://cdn.gramedia.com/uploads/items/Black_Showman_cov.jpg"},
+    {id: 11, title: "Spy x Family", author: "Tatsuya Endo", year: 2019, description: "Komik aksi dan komedi yang mengisahkan seorang mata-mata yang harus membentuk keluarga palsu untuk misi penting.", image: "https://perpustakaan.jakarta.go.id/catalog-dispusip/uploaded_files/sampul_koleksi/original/Monograf/196777.jpg"},
+    {id: 12, title: "The Summer Hikaru Died", author: "Kei Sanbe", year: 2021, description: "Komik dengan tema horor dan slice-of-life yang menceritakan kisah misterius di musim panas.",image: "https://cdn.gramedia.com/uploads/products/2i-02u38ei.png"}
+    
+]
+
+export default books;

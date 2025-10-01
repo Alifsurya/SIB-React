@@ -24,7 +24,7 @@ export default function Team(){
               <div className="card h-100 team-card">
                 <img src="https://i.pinimg.com/736x/c2/f7/68/c2f768c1115750777a00a74ec27e9165.jpg" className="card-img-top" alt="Siti Sadiyah" />
                 <div className="card-body">
-                  <h5 className="card-title">Siti Sadiyah - Back-End Developer</h5>
+                  <h5 className="card-title">Siti Sadiyah - Web Developmet</h5>
                   <p className="card-text">Mengembangkan sisi server, mengelola database, dan membangun logika aplikasi. Bertugas memastikan data buku, akun pengguna, dan proses transaksi berjalan dengan aman, cepat, dan efisien di balik layar.</p>
                 </div>
               </div>
@@ -33,8 +33,8 @@ export default function Team(){
               <div className="card h-100 team-card">
                 <img src="https://image.idntimes.com/post/20230515/anime-lovers-b2134414d7608e67c18a883b34344c38.jpg" className="card-img-top" alt="Jimmy" />
                 <div className="card-body">
-                  <h5 className="card-title">Jimmy Al Fingky - Front-End Developer</h5>
-                  <p className="card-text">Menerjemahkan desain UI/UX menjadi kode interaktif yang dilihat oleh pengguna. Bertugas membangun semua elemen visual, memastikan website tampil responsif di berbagai perangkat, dan fungsionalitas berjalan lancar di sisi browser.</p>
+                  <h5 className="card-title">Jimmy Al Fingky - AI Engineer</h5>
+                  <p className="card-text">Bertugas mengembangkan dan mengimplementasikan model kecerdasan buatan pada sistem Booksales. Fokus pekerjaannya meliputi pengolahan data buku dan perilaku pengguna, membangun algoritma rekomendasi untuk membantu pengguna menemukan buku yang relevan, serta memastikan model AI berjalan efisien dan mendukung pengalaman belanja yang lebih personal dan cerdas.</p>
                 </div>
               </div>
             </div>

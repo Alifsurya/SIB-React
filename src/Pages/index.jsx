@@ -5,15 +5,22 @@ import Hero from "../component/shared/Hero";
 import ProductList from "../component/shared/ProductList";
 import Team from "../component/shared/Team";
 
+// Tambahkan import Books
+import Books from "../component/book";
+
 export default function Home(){
     return(
         <>
-        <Header/>
-        <Hero/>
-        <ProductList/>
-        <Team/>
-        <Contact/>
-        <Footer/>
+            <Header/>
+            <Hero/>
+            <ProductList/>
+            
+            {/* Books ditaruh di bawah ProductList */}
+            <Books showAddButton={false}/>
+            
+            <Team/>
+            <Contact/>
+            <Footer/>
         </>
     )
 }
